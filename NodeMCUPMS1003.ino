@@ -38,6 +38,7 @@ void setup()
   Wire.begin(D2, D1);
   lcd.begin();
   lcd.backlight();
+  
   lcd.home();
   lcd.print("Meteo Santuario");
   delay(2000);
@@ -84,3 +85,5 @@ void loop() {
   }
 
 }
+
+ldskfjasldkfjañsldkfjasdfk
